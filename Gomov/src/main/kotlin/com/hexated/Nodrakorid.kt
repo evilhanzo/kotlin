@@ -9,7 +9,7 @@ import org.jsoup.nodes.Element
 import java.net.URI
 
 class Nodrakorid : Gomov() {
-    override var mainUrl = "https://no1.nodrakor.store"
+    override var mainUrl = "https://nodrakor22.life"
     override var name = "Nodrakorid"
 
     override val mainPage = mainPageOf(
