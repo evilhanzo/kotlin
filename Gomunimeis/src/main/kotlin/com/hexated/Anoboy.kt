@@ -6,9 +6,9 @@ import com.lagradost.cloudstream3.utils.*
 import java.util.ArrayList
 
 
-class Gomunimeis : MainAPI() {
-    override var mainUrl = "https://anoboy.life"
-    override var name = "Gomunime.is"
+class Anoboy : MainAPI() {
+    override var mainUrl = "https://anoboy.baby/"
+    override var name = "Anoboy"
     override val hasMainPage = true
     override var lang = "id"
     override val hasQuickSearch = true
@@ -21,7 +21,7 @@ class Gomunimeis : MainAPI() {
     )
 
     companion object {
-        private const val mainImageUrl = "https://upload.anoboy.life"
+        private const val mainImageUrl = "https://anoboy.baby"
 
         fun getType(t: String): TvType {
             return if (t.contains("OVA", true) || t.contains("Special", true)) TvType.OVA
