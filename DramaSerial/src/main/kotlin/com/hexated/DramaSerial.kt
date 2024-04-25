@@ -12,7 +12,7 @@ import org.jsoup.nodes.Element
 import java.net.URI
 
 class DramaSerial : MainAPI() {
-    override var mainUrl = "https://tv3.dramaserial.id"
+    override var mainUrl = "https://tv4.dramaserial.id/"
     private var serverUrl = "https://juraganfilm.info"
     override var name = "DramaSerial"
     override val hasMainPage = true
