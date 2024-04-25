@@ -13,7 +13,6 @@ class GomovPlugin: Plugin() {
         registerMainAPI(DutaMovie())
         registerMainAPI(Ngefilm())
         registerMainAPI(Nodrakorid())
-        registerMainAPI(Multiplex())
         registerMainAPI(Pusatfilm())
         registerMainAPI(NunaDrama())
         registerExtractorAPI(FilelionsTo())
