@@ -11,7 +11,7 @@ import org.jsoup.nodes.Element
 import java.net.URI
 
 class IdlixProvider : MainAPI() {
-    override var mainUrl = "https://tv.idlixofficial.co"
+    override var mainUrl = "https://vip.idlixofficial.net"
     private var directUrl = mainUrl
     override var name = "Idlix"
     override val hasMainPage = true
@@ -32,8 +32,8 @@ class IdlixProvider : MainAPI() {
         "$mainUrl/movie/page/" to "Movie Terbaru",
         "$mainUrl/tvseries/page/" to "TV Series Terbaru",
 //        "$mainUrl/network/netflix/page/" to "Netflix",
-//        "$mainUrl/genre/anime/page/" to "Anime",
-//        "$mainUrl/genre/drama-korea/page/" to "Drama Korea",
+        "$mainUrl/genre/anime/page/" to "Anime",
+        "$mainUrl/genre/drama-korea/page/" to "Drama Korea",
     )
 
     private fun getBaseUrl(url: String): String {
